@@ -2,7 +2,7 @@ git init
 git config --global user.name "boluomango"
 git config --global user.email "chuandong.wu@foxmail.com"
 ssh-keygen -t rsa -C "chuandong.wu@foxmail.com"
-git remote add mycode git@github.com:boluomango/myrepo.git
+# git remote add mycode git@github.com:boluomango/myrepo.git
 git commit -m "debug"
 git pull mycode master
 git push --force mycode master
